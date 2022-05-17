@@ -1,0 +1,32 @@
+@import "./media.scss";
+.book {
+  .book-container {
+    padding-top: 38px;
+    padding-left: 78px;
+    .margin {
+      @include media3 {
+        margin-top: 3rem;
+      }
+    }
+    @include media3 {
+      padding-top: 0;
+      padding-left: 0;
+      text-align: center;
+    }
+    .card-body {
+      margin-bottom: 89px;
+      padding: 0;
+      display: grid;
+      gap: 1.5rem;
+      @include media3 {
+        gap: 1rem;
+        margin-bottom: 15px;
+      }
+      .card-text {
+        @include media3 {
+          margin: auto;
+        }
+      }
+    }
+  }
+}

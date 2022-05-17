@@ -1,0 +1,31 @@
+@import "./custom.scss";
+@import "./font.scss";
+@import "./media.scss";
+.login {
+  height: 95vh;
+  .form {
+    width: 690px;
+    border-radius: 8px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    .form-control {
+      border: 2px solid rgba(140, 140, 140, 0.8);
+      box-sizing: border-box;
+      border-radius: 8px;
+    }
+    .login-heading {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 22px;
+      line-height: 33px;
+      color: #3b3f46;
+    }
+    @include media3 {
+      width: 560px;
+    }
+    @include media4 {
+      width: unset;
+    }
+  }
+}

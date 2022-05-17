@@ -1,0 +1,25 @@
+@import "./custom.scss";
+@import "./font.scss";
+@import "./media.scss";
+.about {
+  margin-top: 5rem;
+  h3 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+    color: $black;
+    margin-bottom: 2rem;
+  }
+  P {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 40px;
+    text-align: center;
+    color: #565555;
+    margin-bottom: 7rem;
+  }
+}

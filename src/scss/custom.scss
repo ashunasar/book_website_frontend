@@ -1,0 +1,149 @@
+@import "./media.scss";
+$primary: #00084c;
+$white: #fff;
+$black: #000;
+$light-black: rgba(0, 0, 0, 0.7);
+$dark-white: #3f3f44;
+$grey: #ddd;
+$grey-75: #888888;
+$dark-gray: #6c6c75;
+$green: #3d8656;
+$light-green: #388e3c;
+$dark-blue: #111031;
+$brown: #514e4e;
+$bg-dark-brown: #48474e;
+$color-light-brown: #5c5454;
+$color-dark-brown: #393333;
+$font-28: 28px;
+$font-22: 22px;
+$font-20: 20px;
+$font-26: 26px;
+$fw-medium: 500;
+$dark-blue-75: #15205b;
+$dark-blue-75-2: #15205b;
+$dark-blue: rgba(17, 16, 49, 0.85);
+$font-23: 23px;
+$font-21: 21px;
+$font-19: 19px;
+$font-18: 18px;
+$font-16: 16px;
+.line-through {
+  text-decoration: line-through;
+}
+.grey-75 {
+  color: $grey-75;
+}
+.green {
+  color: $green;
+}
+.dark-blue {
+  color: $dark-blue;
+}
+.font-28 {
+  font-size: $font-28;
+}
+.font-21 {
+  font-size: $font-21 !important;
+}
+.font-16 {
+  font-size: $font-16 !important;
+}
+.font-18 {
+  font-size: $font-18 !important;
+}
+.font-19 {
+  font-size: $font-19 !important;
+}
+.font-23 {
+  font-size: $font-23;
+}
+.font-22 {
+  font-size: $font-22 !important;
+}
+.font-20 {
+  font-size: $font-20;
+}
+.font-26 {
+  font-size: $font-26 !important;
+}
+.fw-medium {
+  font-weight: 500 !important;
+}
+.fw-semiBold {
+  font-weight: 600;
+}
+.dark-blue-75 {
+  background-color: $dark-blue-75;
+}
+.dark-blue-75-2 {
+  background-color: $dark-blue-75-2;
+}
+.cart-btn {
+  padding: 18px 28px;
+  text-decoration: none;
+  color: $white;
+}
+.cart-list {
+  a {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #3f3f44;
+    text-decoration: none;
+  }
+}
+.dark-gray {
+  color: $dark-gray;
+}
+.light-black {
+  color: $light-black;
+}
+.light-green {
+  color: $light-green;
+}
+.dark-blue {
+  color: $dark-blue;
+}
+.dark-white {
+  color: $dark-white;
+}
+.order {
+  @include media1 {
+    order: 2;
+    margin-top: 2rem !important;
+  }
+}
+.priceDetail_border {
+  padding: 16px 18px;
+  border-bottom: 0.6px solid rgba(115, 114, 155, 0.6);
+}
+.margin-auto {
+  @include media1 {
+    margin-inline: auto;
+  }
+}
+.brown {
+  color: $brown;
+}
+.bg-dark-brown {
+  background-color: $bg-dark-brown;
+}
+.color-light-brown {
+  color: $color-light-brown;
+}
+.color-dark-brown {
+  color: $color-dark-brown;
+}
+button:hover {
+  opacity: 0.95;
+}
+// Link:hover {
+//   * {
+//     color: red;
+//   }
+// }
+.ff-Roboto {
+  font-family: "Roboto", sans-serif;
+}

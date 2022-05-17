@@ -1,0 +1,36 @@
+@import "./custom.scss";
+@import "./font.scss";
+@import "./media.scss";
+.navbar {
+  .collapse {
+    @include media4 {
+      margin-top: 1rem;
+    }
+    .navbar-nav {
+      .nav-item {
+        margin-left: 30px;
+        @include media1 {
+          margin-left: 0px;
+        }
+        a {
+          font-family: Poppins;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 19px;
+          line-height: 28px;
+          color: $white;
+        }
+      }
+      .nav-item:nth-child(2) {
+        .fa-solid {
+          margin-right: 10px;
+          font-size: 28px;
+        }
+        a {
+          font-weight: 600;
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+}
